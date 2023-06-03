@@ -1,0 +1,8 @@
+classifier_names:
+  - knn
+dataset_name: breast_cancer
+splitting_strategy: percentage
+test_size: 0.2
+profile_metrics:
+  - accuracy
+display_format: plot

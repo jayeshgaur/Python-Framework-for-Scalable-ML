@@ -1,0 +1,14 @@
+classifier_names:
+  - knn
+  - lr
+  - rf
+  - svm
+dataset_name: breast_cancer
+splitting_strategy: percentage_shuffle
+test_size: 0.50
+profile_metrics:
+  - accuracy
+  - precision
+  - recall
+  - f1
+display_format: plot

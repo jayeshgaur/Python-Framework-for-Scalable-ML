@@ -1,0 +1,9 @@
+classifier_names:
+  - knn
+  - lr
+dataset_name: wine
+splitting_strategy: percentage_stratified
+test_size: 0.20
+profile_metrics:
+  - accuracy
+display_format: json

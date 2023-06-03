@@ -1,0 +1,14 @@
+classifier_names:
+  - knn
+  - lr
+  - rf
+  - svm
+dataset_name: wine
+splitting_strategy: percentage
+test_size: 0.20
+profile_metrics:
+  - accuracy
+  - precision
+  - recall
+  - f1
+display_format: json
